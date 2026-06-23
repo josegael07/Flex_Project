@@ -125,20 +125,26 @@ ul{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .quote{
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    margin: 96px 328px 0 328px;
-}
 
+    max-width: 800px;
+    margin-top: 96px;
+}
+                        /*More responsive solutions*/
 .quoter{
     text-align: right;
     font-size: 18px;
     font-weight: 900;
-    margin: 0 328px 96px 328px;
+    
+    width: 800px;
+    text-align: right;
+    margin-bottom: 96px;
 }
 
 .sign-up-ad{
