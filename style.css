@@ -33,10 +33,6 @@ body{
     flex-basis: 450px;
 }
 
-.top-body-text{
-
-}
-
 .top-body-header{
     font-size: 48px;
     font-weight: 900;
@@ -87,5 +83,9 @@ ul{
 .right-links{
     font-size: 18px;
     font-weight: 300;
+}
+
+*{
+    outline: 3px solid #3498db;
 }
 
